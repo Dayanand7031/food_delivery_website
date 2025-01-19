@@ -5,10 +5,12 @@ import Stripe from "stripe";
 
 dotenv.config();
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
+
+ const frontend_url = "https://food-delivery-frontend-4rdl.onrender.com";
 //placing user order from frontend
 const placeOrder = async (req, res) =>{
    
-    const frontend_url = "https://food-delivery-frontend-4rdl.onrender.com";
+   
 
     try{
         const newOrder = new orderModel({
