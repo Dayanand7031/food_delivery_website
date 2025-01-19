@@ -61,9 +61,6 @@ import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
 
 
-export const url="https://food-delivery-back-8r1g.onrender.com";
-export const currency ="₹";
-
 export const assets = {
     logo,
     basket_icon,
